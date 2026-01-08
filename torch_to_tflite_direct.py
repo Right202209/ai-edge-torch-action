@@ -66,7 +66,7 @@ def export_direct_tflite(model_path, output_path='models/direct_model.tflite'):
 
 if __name__ == "__main__":
     # 配置路径
-    MODEL_PTH = 'models/crop_disease_v3.pth' # 你的 .pth 文件路径
+    MODEL_PTH = 'crop_disease_v3.pth' # 你的 .pth 文件路径
     OUTPUT_TFLITE = 'models/crop_disease_direct.tflite'
     
     if os.path.exists(MODEL_PTH):
